@@ -94,7 +94,7 @@ public class Yatzy {
     	return nOfAKind(4);
     }
 
-    public int three_of_a_kind()
+    public int threeOfAKind()
     {
     	return nOfAKind(3);
     }
