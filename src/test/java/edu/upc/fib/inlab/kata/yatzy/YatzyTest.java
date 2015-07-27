@@ -69,9 +69,10 @@ public class YatzyTest {
 	}
 
 	@Test
-	public void twoPairScoreSumOfPairs() {
+	public void twoPairScoreSumOfDifferentPairs() {
 		assertEquals(16, new Yatzy(3, 3, 5, 4, 5).twoPairs());
 		assertEquals(16, new Yatzy(3, 3, 5, 5, 5).twoPairs());
+		assertEquals(0, new Yatzy(3, 3, 3, 3, 5).twoPairs());
 	}
 
 	@Test
